@@ -1,0 +1,16 @@
+<html>
+	<head></head>
+	<body>
+		<form>
+			Provide a set of 4 colors (no spaces) 'B','G','O','P','R','S','W','Y':
+			<p>
+				<input type='text' name='input' />
+				<input type='submit' value="Submit" />
+			</p>
+		</form>
+		<%= "Turn: #{turn}" if !turn.is_a?(String)%>
+		<p>
+		<%= message %>
+		</p>
+	</body>
+</html>
